@@ -1,0 +1,205 @@
+.moveLeft
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/red_btn.png) ;
+    width:200px;
+    border:none;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-left:50px;
+    object-fit: cover;   
+
+}
+
+.moveLeft:hover
+{
+    background-image: url(./Assets/buttons/redHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}
+
+.moveRight
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/red_btn.png);
+    width:200px;
+    border:none;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-left:25px;
+    object-fit: cover;
+    
+    
+}
+
+.moveRight:hover
+{
+    background-image: url(./Assets/buttons/redHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}
+
+.smash
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/blue_btn.png);
+    width:200px;
+    border:none;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-left:25px;
+    object-fit: cover;
+    
+
+}
+
+.smash:hover
+{
+    background-image: url(./Assets/buttons/blueHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+    
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}
+
+.moveUP
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/red_btn.png);
+    width:200px;
+    border:none;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor:pointer;
+    margin-top:3%;
+    margin-left:25px;
+    object-fit: cover;
+    
+}
+
+.moveUP:hover
+{
+    background-image: url(./Assets/buttons/redHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}
+
+.moveDown
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/red_btn.png);
+    width:200px;
+    border:none;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-left:30px;
+    object-fit: cover;
+    
+}
+
+.moveDown:hover
+{
+    background-image: url(./Assets/buttons/redHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}
+
+.Pause
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/yllw_btn.png);
+    width:125px;
+    border:none;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-left:30px;
+    object-fit: cover;
+    
+}
+
+.Pause:hover
+{
+    background-image: url(./Assets/buttons/yllwHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}
+
+.Retry
+{
+    background-color:transparent;
+    background-image: url(./Assets/buttons/yllw_btn.png);
+    width:125px;
+    border:none;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-size:32px;
+    cursor: pointer;
+    margin-top:3%;
+    margin-left:30px;
+    object-fit: cover;
+    align-items: stretch;
+    
+}
+
+.Retry:hover
+{
+    background-image: url(./Assets/buttons/yllwHoverPressed_btn.png);
+    background-repeat: no-repeat;
+ 
+    border:none;
+
+    color: rgb(255, 255, 255);
+    background-size:100%
+
+}

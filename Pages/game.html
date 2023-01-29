@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title> Garden Smasher </title>
+            <meta charset="UTF-8">
+            <!--Importing fonts-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Signika&display=swap" rel="stylesheet">
+            <!-- Local game page and html files style -->
+            <link rel="stylesheet" href="../styles.css">
+            <!-- Buttons -->
+            <link rel="stylesheet" href="../buttonStyles.css">
+
+                <!--libs-->
+                <script src="../libs/p5.dom.min.js"></script>
+                <script src="../libs/p5.js"></script>
+                <script src="../libs/p5.play.js"></script>
+                <script src="../libs/p5.sound.min.js"></script>
+
+        </head>
+
+        <script src="../app.js">
+                
+        </script>
+        <body style="background-color: brown;">
+
+            
+            <section id="game_Title" class="gameName" style="
+                height: 100px; 
+                width: 500px; 
+                margin-left: 25%;
+                
+                ">
+                <h3 style="
+                font-size:30px; 
+                background-color: rgb(101, 101, 182);
+                margin-left: 25%; 
+                text-align: center; 
+                border-radius: 20px;
+                border: 2px black solid;
+                "> Garden SMASHER </h3>
+
+              
+            </section>
+
+            <div id="gamebar" class="game-bar">
+                <div class="inner-bar" ><!--Round bar and state bar-->
+                    <h3 id="barText"> Placeholder </h3>
+                </div>
+            </div>
+
+            <section id="gameContent">
+
+                <div>
+                    <div class="score">
+                            <h5 style="font-size: 30px; margin-top: 15px;">Score:</h5>
+                        <h4 id="gamescore-" class="scoreText"> </h4>
+                    </div>
+                    <div id="time">
+                        <div class="timeText">
+                            <h4 style="
+                                margin-top: 15px;
+                                ">
+                                Time:
+                            </h4>
+                            <h5 class="limit" id="lim1t">  </h5>
+                        </div>
+                    </div>
+
+                    <div class="buttonMenu">
+                        <div class="buttonFFF"></div>
+                            <div class="buttonItem" id="pause">
+                                <button id="006Pause" class="Pause">||</button>
+                            </div>
+                            <div class="buttonItem" id="retry">
+                                <button id="007Retry" class="Retry">↺</button>
+                            </div>
+                    </div>
+                </div>
+                
+            </section>
+
+        </body>
+        <footer class="alert-text-if">
+            <div class="class-text-advertise">
+                <span class="text">
+                    If the game/page freezes then restart the page pressing <span style="font: bold; font-size: 25px;"><a href="game.html">↻</a></span> to update the page. 
+                    <br>
+                    Or press the icon.
+                </span>
+            </div>
+        </footer>
+</html>

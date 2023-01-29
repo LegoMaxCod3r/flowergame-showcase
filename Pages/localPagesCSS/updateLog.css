@@ -1,0 +1,95 @@
+#Versions
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.VersionItem
+{
+    display: -ms-flexbox;
+    display: flex;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    border: 5px black solid;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 14px;
+    font-size: 16px;
+
+}
+
+.VersionHead
+{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border: 2px black solid;
+    
+    height: 30px;
+    width: 400px;
+    font-size: 23px;
+    /*margin-left: 15%;
+    margin-right: 15%;*/
+    margin: 0 auto;
+    margin-top: 1.3rem;
+}
+
+.VersionLog
+{
+
+    width: 550px;
+    margin-right: 2%;
+    border: 3px black solid;
+    border-radius: 7px;
+    
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    
+    margin-left: 10%;
+
+}
+
+.versionStuff
+{
+    border-radius: 8px;
+    width: 115px;
+    max-width: 150px;
+    height: 100px;
+    background-color: bisque;
+    border: 3px black solid;
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+    justify-content: center;
+
+    
+
+}
+
+.versionStuff2
+{
+    border-radius: 8px;
+    width: 115px;
+    max-width: 150px;
+    background-color: bisque;
+    border: 3px black solid;
+    position: absolute;
+    justify-content: center;
+    left: 16%;
+    top: 395px;
+
+}
+
+ul
+{
+    font-family: 'Signika';
+    margin-right: 2%;
+    font-size: 22px;
+    text-align: right;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+ul:hover
+{
+    background-color: bisque;
+}

@@ -1,0 +1,372 @@
+:root
+{
+    --scissors: url(./Assets/cursors/cursor_scissors.png), auto;
+}
+
+cursor
+{
+    transform: 2.3rem;
+}
+
+canvas
+{
+    margin-left: 12.5rem;
+    cursor: var(--scissors);
+    border-radius: 15px;
+    margin-top: 3.5rem;
+}
+
+
+.score
+{
+    font-family: 'Signika';
+    position: absolute;
+    background-color: rgb(30, 127, 192);
+    border-radius: 30px;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 17.7px;
+    width: 250px;
+    top: 580px;
+    left: 870px;
+    height: 120px;
+
+}
+
+.game-bar
+{
+    background-color: black;
+    border-radius: 15px;
+    border: 1px blue solid;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 1.2%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Signika';
+}
+
+#gameButtons
+{
+    align-items: center;
+}
+
+.scoreText{
+    font-family: 'Montserrat';
+    font: bold;
+    margin-top: -11.4%;
+    color: antiquewhite;
+    font-size: 36px;
+   
+}
+
+.scoreText:hover
+{
+    background-color: rgb(71, 159, 218);
+    border-radius: 30px;
+    font-size: 40px;
+    
+}
+
+.gameFuncs
+{
+    background-color: rgb(241, 169, 74);
+    border-radius: 1cm;
+}
+
+.buttons
+{
+    margin: 0 auto;
+   align-items: center;
+}
+
+#time
+{
+    font-family: 'Signika';
+    background-color: rgb(134, 12, 39);
+    position: absolute;
+    top: 450px;
+    left: 870px;
+    border-radius: 30px;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    width: 250px;
+    height: 120px;
+
+}
+
+.limit
+{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    margin-top: -7%;
+}
+
+.limit:hover
+{
+    background-color: rgb(201, 40, 75);
+    font-size: 40px;
+    border-radius: 30px;
+
+}
+#gameCanvas
+{
+    cursor: none;
+}
+
+/*Footer Sytle//////////////////////////////////////////////////////////////////////Footer////*/
+.OtherSites
+{
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    margin-left: -.48rem;
+    margin-right: -.48rem;
+    margin-bottom: -100rem;
+    margin-top: 10px;
+    border-top-left-radius:  30px;
+    border-top-right-radius:  30px;
+    border: 3px black solid;
+    background-color: darkslategrey;
+    height: 500px;
+    height: fit-content;
+    
+
+    
+}
+
+.footer-socials
+{
+
+    display: flex;
+    width: 470.5px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.titleFooterI
+{
+    background-color: rgb(35, 58, 58);
+    font-size: 25px;
+    width: 175px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+
+}
+
+.footer-sites-ItemNav
+{
+    display: -ms-flexbox;
+    display: flexbox;
+    font-size: 26px;
+    background-color: darkslategrey;
+    width: auto;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 1.3rem;
+    font-family: 'Signika';
+    vertical-align: middle;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-sites-ItemNav:hover
+{
+    border: 1px solid black;
+    background-color: rgb(73, 107, 107);
+    cursor: pointer;
+    
+}
+
+.footer-sites-ItemNav:active
+{
+    border: 1px solid rgb(22, 22, 22);
+
+    
+}
+
+.link-cont
+{
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 358.5px;
+}
+
+.img-soc
+{
+    margin-top: .1rem;
+}
+
+.footer-soc-ItemNav
+{
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flexbox;
+    font-size: 26px;
+    background-color: darkslategrey;
+    width: 102px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 1.3rem;
+    font-family: 'Signika';
+    vertical-align: middle;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-soc-ItemNav:hover
+{
+    border: .25px solid black;
+    background-color: rgb(73, 107, 107);
+    cursor: pointer;
+    
+}
+
+.footer-soc-ItemNav:active
+{
+    border: 1px solid rgb(22, 22, 22);
+
+    
+}
+
+.separator-vertical-doubled
+{
+    margin-left: 15.5rem;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.separator-vert
+{
+    margin-left: 3.2rem;
+}
+
+.separator-hor
+{
+    margin-top: 2.2rem;
+}
+
+.separator-hor-doubled
+{
+    margin-top: 19rem;
+}
+
+
+.gameVersion-container
+{
+    background-color: transparent;
+}
+
+
+
+.gamev-Container
+{
+    
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    width: 260px;
+    font-family: 'Signika';
+    text-align: center;
+    font-size: 52px;
+    margin:0 auto;
+    margin-left: -59%;
+}
+.copyrightContainer-
+{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    width: 170px;
+    font-family: 'Signika';
+    align-items: flex-end;
+    text-align: left;
+    font-size: 32px;
+}
+
+.cont-fotI
+{
+    width: 357px;
+    height: fit-content;
+}
+
+/*social*/
+.fb
+{
+    background-color: transparent;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Button Styles*/
+.buttonMenu
+{
+    position: absolute;
+    background-color:rgb(255, 115, 0);
+    width: 255px;
+    height: 230px;
+    border-radius: 15px;
+    border: 3px black solid;
+    top: 450px;
+    left: 70%;
+}
+
+.buttonFFF
+{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonItem
+{
+    align-items: center;
+    margin-left: 17%;
+    margin-top: 2.5%;
+    margin-bottom: .5%;
+
+}
+
+
+
+/*in-game*/
+.class-text-advertise
+{
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 65px;
+    border-radius: 5.333px;
+    background-color: rgb(59, 58, 63);
+}
+
+.text
+{
+    margin-left: .3rem;
+    margin-right: .3rem;
+    align-items: center;
+    font-family: 'Signika';
+    text-align: center;
+    color: aliceblue;
+    
+}
